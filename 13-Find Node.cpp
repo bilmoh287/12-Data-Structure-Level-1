@@ -1,7 +1,3 @@
-
-// ProgrammingAdvices.com
-// Mohammed Abu-Hadhoud
-
 #include <iostream>
 using namespace std;
 
@@ -58,7 +54,7 @@ void PrintListDetails(Node* head)
     }
 }
 
-Node* Find(Node*& head, int Value)
+Node* Find(Node* head, int Value)
 {
     while (head != NULL)
     {
